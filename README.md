@@ -1,9 +1,10 @@
 # hadoop-intro
-hadoop, hbase, spark playground. 
+hadoop 2.6.0, hbase 0.98, spark 1.5.1, scala lastest (sbt) playground. 
 * Contains simple vagrant(could be used on windows) + fabric file that setups single machine cluster(needs vagrant-fabric plugin)
-* Contains some examples for reading/writing from hbase/hdfs from spark
+* Contains some examples for reading/writing from hbase/hdfs from spark (including ML)
 
 # Setup
+* vagrant plugin install vagrant-fabric
 * vagrant up - starts and provisions machine with hbase/spark/hdfs installed
 * vagrant ssh
 * sudo su - hadoop
